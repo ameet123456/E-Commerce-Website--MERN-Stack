@@ -1,0 +1,176 @@
+.product-form {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    padding-left:100px ;
+    padding-right: 100px;
+    background-color: #f9f9f9;
+    
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  .header{
+    color: #333;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    font-size: 32px;
+    font-weight: bold;
+  }
+  .sub-header{
+    color: #333;
+    padding-bottom: 20px;
+    font-size: 14px;
+    
+  }
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  input,
+  textarea,
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  textarea {
+    resize: none;
+    height: 80px;
+  }
+  
+  input[type="color"] {
+    width: auto;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .submit-btn {
+    width: 100%;
+    background-color: #0099FF;
+  }
+  
+  .submit-btn:hover {
+    background-color: #0089FF;
+  }
+  
+  small {
+    display: block;
+    margin-top: 5px;
+    font-size: 12px;
+    color: #666;
+  }
+  .image-uploader {
+  width: 100%;
+  
+  height: 170px;
+}
+
+.dropzone {
+  border: 2px dashed #cccccc;
+  border-radius: 8px;
+  height: 130px;
+  padding: 20px;
+  cursor: pointer;
+  background-color: #f9f9f9;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.dropzone:hover {
+  background-color: #f0f8ff;
+}
+
+.upload-placeholder {
+  color: #888888;
+  font-size: 14px;
+}
+
+.image-previews {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.preview-item img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 4px;
+  border: 1px solid #cccccc;
+}
+.preview-item {
+  position: relative;
+  display: inline-block;
+  margin: 10px;
+}
+
+.remove-button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background: transparent;
+  color: rgb(255, 0, 0);
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+  
+}
+
+.remove-button:hover {
+  background-color: darkred;
+}
+
+.image-uploader {
+  border: 2px dashed #ccc;
+  padding: 20px;
+  text-align: center;
+}
+
+.dropzone {
+  border: 2px dashed #007BFF;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.upload-placeholder p {
+  font-size: 16px;
+}
+
+.image-previews {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.preview-item img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin: 5px;
+}

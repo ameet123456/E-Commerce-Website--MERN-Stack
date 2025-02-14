@@ -1,0 +1,139 @@
+/* Basic reset and global styles */
+
+.product-list{
+  padding-left:100px;
+  padding-right: 100px;
+  background-color: WHITE;
+  color: black;
+  min-height: 91.5vh;
+}
+
+/* Header styles */
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  font-size: 20px
+}
+
+.header-buttons {
+  display:flex ;
+  gap: 10px;
+}
+
+.header-buttons button {
+  padding: 8px 16px;
+  font-size: 14px;
+  color: #000000;
+  background-color: #f3f4f6;
+  border: 1px solid #e5e7eb;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.header-buttons button:hover {
+  background-color: #e5e7eb;
+}
+
+.header-actions {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.header-actions input {
+  padding: 8px 16px;
+  border: 1px solid #e5e7eb;
+  border-radius: 4px;
+}
+
+.header-actions button {
+  padding: 8px 16px;
+  height: 44px;
+  background-color: #3b82f6;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.header-actions button:hover {
+  background-color: #2563eb;
+}
+
+/* Card and table styles */
+.card {
+  background-color: white;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 16px;
+  text-align: left;
+  font-size: 14px;
+}
+
+th {
+  background-color: #f3f4f6;
+  font-weight: 600;
+}
+
+td {
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.product-info {
+  display: flex;
+  align-items: center;
+}
+
+.product-info img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.product-name {
+  font-weight: 600;
+}
+
+.product-category {
+  font-size: 12px;
+  color: #6b7280;
+}
+
+/* Status colors */
+.active {
+  color: #16a34a;
+}
+
+.inactive {
+  color: #dc2626;
+}
+
+.loading {
+  color: #6b7280;
+}
+
+/* Error and loading message */
+.loading, .error {
+  padding: 20px;
+  font-size: 16px;
+  text-align: center;
+}
+.clickable {
+  cursor: pointer;
+}

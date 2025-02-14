@@ -1,0 +1,117 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+ 
+}
+
+/* Header Container */
+header {
+  padding: 8px 100px; /* Default padding for large screens */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #121921; 
+}
+
+/* Left Section (Brand and Categories) */
+.left {
+  display: flex;
+  align-items: center;
+  gap: 36px;
+}
+
+/* Brand Name */
+.left-BrandName {
+  font-family: "Jersey 10", sans-serif;
+  font-size: 32px;
+  font-weight: 450;
+  color: #0099ff;
+}
+
+/* Categories */
+.left-categories {
+  font-family: "Manrope", serif;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* Icon Container */
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Individual Icon Styling */
+.icon, .icons div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Horizontal Rule */
+hr {
+  margin: 0;
+  border: none;
+  border-top: 2px solid #46424294;
+}
+
+/* Responsive Design */
+
+/* For Medium Screens (Tablets) */
+@media screen and (max-width: 768px) {
+  header {
+    padding: 8px 20px; /* Reduce padding */
+    flex-direction: column; /* Stack items vertically */
+    align-items: flex-start; /* Align content to the left */
+  }
+
+  .left {
+    flex-direction: column; /* Stack brand and categories */
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .icons {
+    justify-content: flex-start;
+    gap: 12px;
+    margin-top: 10px;
+  }
+
+  .left-BrandName {
+    font-size: 28px; /* Slightly smaller brand name */
+  }
+
+  .left-categories {
+    font-size: 12px; /* Smaller font size */
+  }
+}
+
+/* For Small Screens (Mobile) */
+@media screen and (max-width: 480px) {
+  header {
+    padding: 8px 10px; /* Even smaller padding */
+  }
+
+  .left-BrandName {
+    font-size: 24px; /* Reduce font size */
+  }
+
+  .left-categories {
+    font-size: 12px;
+  }
+
+  .icons {
+    flex-wrap: wrap; /* Allow icons to wrap on small screens */
+    gap: 6px;
+  }
+
+  /* Reduce icon size for small screens */
+  .icon svg, .icons div svg {
+    width: 1.5rem;
+    height: 1.5rem;
+    padding: 0.2rem;
+  }
+}
+
